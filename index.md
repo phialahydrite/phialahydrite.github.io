@@ -3,3 +3,5 @@
 My professional coding portfolio.
 
 [Here](surface_masking_demo.md) is an example of code I wrote to mask images based on foreground and background estimation, using Pandas, HDF5, and other tools.
+
+[Here](particle_displacer_demo.md) is an example of code I wrote to displace seeded particles using a k-d tree method, further utilizing Pandas for data analysis. 
