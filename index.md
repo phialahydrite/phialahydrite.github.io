@@ -8,4 +8,4 @@ My professional coding portfolio.
 
 [Here](particle_displacer_demo.md) is an example of code I wrote to displace seeded particles using a k-d tree method, further utilizing Pandas for data analysis. 
 
-Please feel free to contact me at [phialathouvenin@gmail.com](phialathouvenin@gmail.com) with any questions!
+Please feel free to contact me at [phialathouvenin@gmail.com](mailto:phialathouvenin@gmail.com) with any questions!
