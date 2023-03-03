@@ -246,6 +246,61 @@ plt.legend(['Surface','Deformation Front'])
 - The defintition of the active wedge is changable, and others may define the wedge as the material between the first interruption in topography (~1000 pixels across the image) and the deformation front.
 
 
+
+```python
+def slope_deffront(surfs,front,window=81,peak_thres=0.4,
+                      scale=70.,plotting=False,sgol=False):
+    '''
+    FOR SINGLY-VERGENT WEDGES ONLY
+    
+    Examine calcuated surfaces, and determine the surface expression of their
+        deformation fronts over the length of an experiment.
+    
+    Perform calcuation on Gaussian-filtered surface, as raw surface is noisy
+        enough to interfere with properly identifying the deformation front,
+        as the last "turn" in the surface, topography decreasing to the left.
+    
+    Calcuated value may NOT be actual deformation front, as deformation may
+        jump forelandward for a short time before surface expression.
+    
+    THEN, calcuate the slope of the surface BEFORE the deformation front,
+    
+    
+    TODO:
+        - modify to calcuate last peak of curvature, to detect the retrowedge
+            boundary in doubly-vergent analog models, and calcuate both
+            pro- and retro-wedge slopes
+    '''
+    slope = []
+    surfs_keys = list(h5py.File(surfs,'r'))
+    for i, key in enumerate(surfs_keys):
+        # read each surface
+        surf = pd.read_hdf(surfs,key)
+        surf = surf.y.dropna().reindex(surf.x, method='nearest').reset_index()
+        # calcuate slope of topography BEFORE the deformation front [fronts]
+        max_surf = surf[surf.y == surf.y.max()].index.values[0]
+        if len(surf[(surf.x <= surf.x[front.iloc[i].x_df]) & (surf.x >= surf.x[max_surf])]) >= 3:
+            wedge_topo = surf[(surf.x <= surf.x[front.iloc[i].x_df]) & (surf.x >= surf.x[max_surf])]
+        else:
+            wedge_topo = surf[(surf.x <= surf.x[front.iloc[i].x_df])]
+        m,b = line_fit(wedge_topo.x,wedge_topo.y)
+        slope.append(m)
+        if plotting:
+            plt.figure(figsize=(15,5))
+            fitline = wedge_topo.x * m + b
+            plt.plot(surf.x,surf.y,'k+',wedge_topo.x,fitline,'r-');
+            plt.text(3000,800,f'Slope is {abs(m*180/np.pi)}{chr(176)}')
+            plt.axis('scaled')
+            plt.ylim([0,1000])
+            plt.xlabel('Width')
+            plt.ylabel('Height')
+            plt.title(f'Slope Fit For Surface: {key}')
+            plt.savefig(f'fit_surf_{key}.png',bbox_inches='tight')
+            plt.close('all')
+    return slope
+```
+
+
 ```python
 slopes = slope_deffront(surfs,front,plotting=True)
 ```
