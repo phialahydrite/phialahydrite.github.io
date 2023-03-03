@@ -48,6 +48,8 @@ plt.legend(['Surface'])
 
 # Calculate deformation front position
 - Use image processing tools to identify curvature in the surface of each wedge
+- Identify deformation front as the very front of deformed topography.
+- This position changes throughout each experiment.
 
 
 ```python
