@@ -1,6 +1,7 @@
 # Calculating wedge slopes
 - Take output from surface_generator
 - Extract the section of the wedge before the deformation front
+- Sample this extracted topography and fit a slope using least squares.
 - All measurements are in pixels
 
 # Module imports
