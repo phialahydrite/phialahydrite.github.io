@@ -5,7 +5,7 @@
 - All measurements are in pixels.
 
 # Module imports
-- need to install pims
+- Need to install pims
 
 
 ```python
