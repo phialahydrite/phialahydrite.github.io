@@ -10,4 +10,6 @@ My professional coding portfolio.
 
 [Here](particle_displacer_demo.md) is an example of code I wrote to displace seeded particles using a k-d tree method, further utilizing Pandas for data analysis. 
 
+[Here](slope_calculator.md) is an example of using the surfaces generated in the previous example to estimate surface slope, using Pandas, HDF5, and image processing techniques.
+
 Please feel free to contact me at [phialathouvenin@gmail.com](mailto:phialathouvenin@gmail.com) with any questions!
