@@ -1,7 +1,8 @@
 ## Synthetic Particle Trajectory Velocimetry
-- uses the MATLAB toolbox [PIVLab](https://www.mathworks.com/matlabcentral/fileexchange/27659-pivlab-particle-image-velocimetry-piv-tool-with-gui)
-- use the displacements generated using Particle Image Velocimetry (PIV) to displace artificially seeded particles
-- view the resulting trajectories
+- Uses the MATLAB Particle Image Velocimetry (PIV) toolbox [PIVLab](https://www.mathworks.com/matlabcentral/fileexchange/27659-pivlab-particle-image-velocimetry-piv-tool-with-gui).
+- Use the displacements generated using PIV to displace artificially seeded particles.
+- View the resulting trajectories.
+- All measurements are in pixels.
 
 # Module imports
 - need to install pims
@@ -16,9 +17,9 @@ import pims
 ```
 
 # Load images and Particle Image Velocimetry data
-- examine displacement in sand
-- plot first and last frame
-- note the different zones of displacement
+- Examine displacement in sand
+- Plot first and last frame
+- Note the different zones of displacement
 
 
 ```python
@@ -174,7 +175,7 @@ pts.head()
 
 
 # Plot trajectories
-- plot selected particles for ease of viewing
+- Plot selected particles for ease of viewing.
 
 
 ```python
