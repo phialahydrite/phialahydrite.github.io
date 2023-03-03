@@ -1,6 +1,8 @@
 # Image Surface Tracking
 - For analog tectonic models, the position of the surface is of the utmost importance
 - From this surface, we can calculate quantities like particle depth, surface slope, deformation front postion, among others
+- We can use image processing techniques to create simple masks which can then be used to calculate each surface.
+- All measurements are in pixels.
 
 # Module Imports 
 
