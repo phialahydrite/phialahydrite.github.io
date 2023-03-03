@@ -10,6 +10,6 @@ My professional coding portfolio.
 
 [Here](surface_masking_demo.md) is an example of code I wrote to mask images based on foreground and background estimation, using Pandas, HDF5, and image processing tools. [[repo]](https://github.com/phialahydrite/surface_generator)
 
-[Here](slope_calculator.md) is an example of using the surfaces generated in the previous example to give an estimate of surface slope, using Pandas, HDF5, and image processing techniques. [[repo]](https://github.com/phialahydrite/slope_calculator)
+[Here](slope_calculator.md) is an example of using the surfaces generated in the previous example to give an estimate of surface slope, using Pandas, HDF5, and image processing tools. [[repo]](https://github.com/phialahydrite/slope_calculator)
 
 Please feel free to contact me at [phialathouvenin@gmail.com](mailto:phialathouvenin@gmail.com) with any questions!
