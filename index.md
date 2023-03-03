@@ -12,4 +12,6 @@ My professional coding portfolio.
 
 [Here](slope_calculator.md) is an example of using the surfaces generated in the previous example to give an estimate of surface slope, using Pandas, HDF5, and image processing tools. [[repo]](https://github.com/phialahydrite/slope_calculator)
 
+[Here](gmt_test.md) is an example of manipulating NumPy arrays and saving them as scientific grid file formats (for Generic Mapping Tools and netCDF4). [[repo]](https://github.com/phialahydrite/gridfile)
+
 Please feel free to contact me at [phialathouvenin@gmail.com](mailto:phialathouvenin@gmail.com) with any questions!
