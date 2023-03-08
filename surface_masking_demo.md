@@ -1,8 +1,6 @@
 # Image Surface Tracking
 - For analog tectonic models, the position of the surface is of the utmost importance
 - From this surface, we can calculate quantities like particle depth, surface slope, deformation front postion, among others
-- We can use image processing techniques to create simple masks which can then be used to calculate each surface.
-- All measurements are in pixels.
 
 # Module Imports 
 
@@ -37,7 +35,7 @@ plt.imshow(images[0][ymin:ymax,xmin:xmax,:] )
 
 
     
-![png](output_5_1.png)
+![png](output_5_11.png)
     
 
 
@@ -150,7 +148,7 @@ run src/main.py
     Calculated surface of image # 00005
     Calculated surface of image # 00006
     Calculated surface of image # 00007
-    
+
 
 # Plot Surfaces
 - Determine of algorithm worked correctly
@@ -177,6 +175,6 @@ plt.legend(['Surface'])
 
 
     
-![png](output_12_1.png)
+![png](output_12_11.png)
     
 
