@@ -2,7 +2,7 @@
 
 My professional coding portfolio.
 
-[Here](resume_PJT.pdf) is my resume.
+[Here](PJT_dataresume_chi.pdf) is my resume.
 
 [Here](https://www.linkedin.com/in/phiala-jane-thouvenin/) is my LinkedIn profile.
 
