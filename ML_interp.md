@@ -62,36 +62,8 @@ particles_pred['x_pred'] = regressor_x.predict(particles_pred[['frame', 'particl
 particles_pred['y_pred'] = regressor_y.predict(particles_pred[['frame', 'particle']])
 ```
 
-# Linear Interpolation Comparison 
-Create and interpolate larger list of particles with missing positions, using simple linear interpolation.
-
-
-```python
-particles_missing = pd.merge(left=particles_pred,right=particles,how='left')
-particles_interpolated = particles_missing.groupby('particle').apply(lambda group: group.interpolate(method='linear'))
-```
-
-### Create master list of all possible frames of particle data
-
-
-```python
-frames = np.arange(particles.frame.min(),particles.frame.max())
-particles_pred = [np.array([frames,np.ones_like(frames) * particle]).T \
-                  for particle in particles.particle.unique()][0]
-particles_pred = pd.DataFrame(particles_pred,columns=['frame','particle'])
-```
-
-### Predict missing values with regressor
-
-
-```python
-particles_pred['x_pred'] = regressor_x.predict(particles_pred[['frame', 'particle']])
-particles_pred['y_pred'] = regressor_y.predict(particles_pred[['frame', 'particle']])
-```
-
-# Linear Interpolation Comparison 
-
-### Create and interpolate larger list of particles with missing positions.
+# Linear Interpolation  
+### Create and interpolate larger list of particles with missing positions, using simple linear interpolation.
 
 
 ```python
@@ -100,7 +72,6 @@ particles_interpolated = particles_missing.groupby('particle').apply(lambda grou
 ```
 
 # Plot the original and interpolated particle positions
-
 
 ### Random Forest Method vs Linear Interpolation - Results
 
