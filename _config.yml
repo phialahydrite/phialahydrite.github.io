@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: Phiala Thouvenin, Ph.D.'s Portfolio
-description: Phiala Thouvenin, Ph.D.'s Coding Projects and Examples
+description: Coding Projects and Examples
