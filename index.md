@@ -4,7 +4,7 @@ My professional coding portfolio.
 
 [Here](resume_PJT.pdf) is my resume.
 
-[Here](https://www.linkedin.com/in/phiala-jane-thouvenin/) is my LinkedIn profile.
+[Here](https://www.linkedin.com/in/phiala-thouvenin/) is my LinkedIn profile.
 
 ### Scientific Data Processing Examples
 [Here](ML_interp.md) is an example of simple machine learning tools as applied to missing particle tracking data. This uses Scikit-learn and Pandas.
