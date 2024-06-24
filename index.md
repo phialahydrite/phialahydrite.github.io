@@ -1,4 +1,4 @@
-# Phiala Jane Thouvenin's Portfolio
+# Phiala Thouvenin's Portfolio
 
 My professional coding portfolio.
 
@@ -19,7 +19,7 @@ My professional coding portfolio.
 
 ### Digital Signal Processing Examples
 
-[Here](https://github.com/phialahydrite/morphagene_batchnorm) is a repo used to batch normalize and amplify Make Noise Morphagene reels while preserving splice locations already present in the reels.
+[Here](https://github.com/phialahydrite/morphagene_batchnorm) is a repo used to batch normalize and amplify/attenuate Make Noise Morphagene reels while preserving splice locations already present in the reels.
 
 [Here](https://github.com/phialahydrite/morphagene_onset) is a repo used to automatically detect onset transients in audio .wav files, saving them as splices in correctly-formatted Make Noise Morphagene reels.
 
