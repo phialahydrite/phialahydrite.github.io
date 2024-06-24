@@ -1,6 +1,4 @@
-# Phiala Thouvenin, Ph.D.'s Portfolio
-
-My professional coding portfolio.
+My professional and recreational programming portfolio.
 
 [Here](resume_PJT.pdf) is my resume.
 
