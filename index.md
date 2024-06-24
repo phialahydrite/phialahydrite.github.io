@@ -1,4 +1,4 @@
-# Phiala Thouvenin's Portfolio
+# Phiala Thouvenin, Ph.D.'s Portfolio
 
 My professional coding portfolio.
 
