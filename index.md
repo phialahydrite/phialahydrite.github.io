@@ -1,6 +1,6 @@
 My professional and recreational programming portfolio.
 
-[Here](resume_PJT.pdf) is my resume.
+[Here](Phiala%20Thouvenin%20-%20Resume%20(Aug%2025).pdf) is my resume.
 
 [Here](https://www.linkedin.com/in/phiala-thouvenin/) is my LinkedIn profile.
 
