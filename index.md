@@ -6,6 +6,7 @@ My professional and recreational programming portfolio.
 
 ### Scientific Data Processing Examples
 [Here](synthetic_particle_displacement.md) is an example comparing synthetic particle tracking velocimetry (SPTV) to a Runge-Kutta analytic solution of a vector field, showing particles being advected in a shortening zone.
+![png](synthetic_displacement_paths.png)
 
 [Here](ML_interp.md) is an example of simple machine learning tools as applied to missing particle tracking data. This uses Scikit-learn and Pandas.
 
