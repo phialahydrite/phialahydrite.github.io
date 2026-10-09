@@ -5,9 +5,9 @@ My professional and recreational programming portfolio.
 [Here](https://www.linkedin.com/in/phiala-thouvenin/) is my LinkedIn profile.
 
 ### Scientific Data Processing Examples
-[Here](ML_interp.md) is an example of simple machine learning tools as applied to missing particle tracking data. This uses Scikit-learn and Pandas.
+[Here](synthetic_particle_displacement.md) is an example comparing synthetic particle tracking velocimetry (SPTV) to a Runge-Kutta analytic solution of a vector field, showing particles being advected in a shortening zone.
 
-[Here](particle_displacer_demo.md) is an example of code I wrote to displace synthetic particles using a k-d tree method and particle image velocimetry data, further utilizing Pandas for data analysis. [[repo]](https://github.com/phialahydrite/sptv_code)
+[Here](ML_interp.md) is an example of simple machine learning tools as applied to missing particle tracking data. This uses Scikit-learn and Pandas.
 
 [Here](surface_masking_demo.md) is an example of code I wrote to mask images based on foreground and background estimation, using Pandas, HDF5, and image processing tools. [[repo]](https://github.com/phialahydrite/surface_generator)
 
