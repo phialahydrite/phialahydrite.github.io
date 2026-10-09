@@ -11,6 +11,7 @@ My professional and recreational programming portfolio.
 [Here](ML_interp.md) is an example of simple machine learning tools as applied to missing particle tracking data. This uses Scikit-learn and Pandas.
 
 [Here](surface_masking_demo.md) is an example of code I wrote to mask images based on foreground and background estimation, using Pandas, HDF5, and image processing tools. [[repo]](https://github.com/phialahydrite/surface_generator)
+![png](output_12_11.png)
 
 [Here](slope_calculator.md) is an example of using the surfaces generated in the previous example to give an estimate of surface slope, using Pandas, HDF5, and image processing tools. [[repo]](https://github.com/phialahydrite/slope_calculator)
 
