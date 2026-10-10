@@ -1,13 +1,13 @@
 # Synthetic particle displacement with `analogy`
 
 `analogy.particle_displacer` moves synthetic markers through a sequence of
-PIVlab velocity files. Real PIV has no ground truth, so it is hard to say how
-accurate the resulting tracks are. This example removes that problem by building
-the velocity field from a formula: the exact marker paths are known, and the
-output of `particle_displacer` can be checked against them.
+[PIVlab](https://www.pivlab.de/) velocity files. Real PIV has no ground truth, 
+so it is hard to say how accurate the resulting tracks are. This example removes 
+that problem by building the velocity field from a formula: the exact marker paths 
+are known, and the output of `particle_displacer` can be checked against them.
 
 The full script is `examples/synthetic_particle_displacement.py`. It needs no
-data files and no HDF5, and runs in about 6 seconds.
+data files and no HDF5 surface files, and runs in about 6 seconds.
 
 ```bash
 python examples/synthetic_particle_displacement.py --out ./out
